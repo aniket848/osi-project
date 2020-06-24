@@ -1,0 +1,216 @@
+body{
+     font-family: 'Montserrat', sans-serif;
+}
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+  text-align: left;
+}
+
+.navbar-brand{
+  color:#fff;
+  font-size:2rem;
+  font-family: 'Metal Mania', cursive;
+  line-height: 1.5;
+}
+
+.navbar-brand:hover{
+  color:#fff;
+  font-size:2.2rem;
+  text-decoration: underline;
+}
+
+.navbar-toggler-icon{
+  color:#fff;
+  font-size: 1.5rem;
+
+}
+
+.navbar-toggler-icon:hover{
+  background-color:  #ff4c68;
+  color:#fff;
+  border:1px solid  #ff4c68;
+}
+
+.nav-link{
+  color:#fff;
+  font-size:1.4rem;
+  margin:5px 15px;
+  }
+
+  .nav-link:hover{
+    color:#fff;
+    font-size: 1.5rem;
+    text-decoration: underline;
+  }
+
+  .title-image{
+  padding:17px 35px 5px 35px;
+}
+
+.navbar{
+  padding-left: 0;
+}
+
+.container-fluid{
+  padding:3% 15%;
+}
+
+@media (max-width:992px)
+{  #title{
+  text-align:center;
+   }
+   .title-image{
+     padding:5px;
+     margin:auto;
+   }
+   .container-fluid{
+  padding:3% 3%;
+  }
+}
+  button{
+    margin-right:15px;
+    margin-top: 20px;
+  }
+
+
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight:800;
+  line-height:1.5;
+}
+
+
+/*****features***/
+
+#features{
+  background-color: #fff;
+  padding:5% 13%;
+  text-align: center;
+}
+
+h3{
+  font-size:2rem;
+  font-weight: bold;
+}
+
+.feature{
+   padding:4%;
+   padding-top:1%;
+   padding-bottom:2%;
+}
+.icon{
+  font-size:4.2rem;
+  color:#fc9d9d;
+  margin:20px;
+  margin-bottom: 40px;
+}
+
+.icon:hover{
+  color:#ff4c68;
+  font-size:4.3rem;
+}
+/******testimonials***/
+#testimonials{
+  background-color:#ff4c68;
+  color:#fff;
+  text-align: center;
+}
+.carousel-item{
+  padding:5% 15% 7% 15%;
+}
+img.image-testimonial{
+  width:40%;
+  border-radius:100%;
+  margin-left:50px;
+  margin-bottom:30px;
+}
+em{
+  font-size:1.3rem;
+}
+.brand{  font-family: 'Metal Mania', cursive;
+    color:#fff;
+    margin-top:10px;
+   font-size: 2rem;
+ line-height: 1.5;}
+
+/******Pricing******/
+
+#pricing{
+  background-color: #fff;
+  padding:5% 10%;
+  text-align: center;
+}
+
+.text h2{
+    font-size:3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 2;
+    
+}
+
+.text p{
+  font-size: 1.5rem;
+  margin-bottom:50px;
+}
+.card-body , .card-header{
+  border:1px solid black;
+}
+.cards{
+  margin:15px 0;
+}
+
+.card-title{
+  font-size:2.5rem;
+}
+
+.text-muted{
+  font-size: 1.2rem;
+}
+
+/****cta****/
+
+#cta{
+  background-color:#ff4c68;
+  padding:3% 15%;
+  text-align: center;
+  color: #fff;
+}
+
+.cta{
+  font-size:2rem;
+ margin-bottom:20px;
+}
+.cta span{
+ margin:25px 0;
+ display:inline-block;
+}
+
+/******footer*****/
+
+#footer{
+  text-align: center;
+  background-color:#fff;
+  padding:1% 15%;
+}
+
+.social-site i{
+  margin:20px 35px;
+  padding:2px;
+  color:#000;
+  font-size: 30px;
+}
+.social-site i:hover{
+   background-color: #000;
+    color:#fff;
+    font-size: 32px;
+}
+
+.name:hover{
+  text-decoration: underline;
+  font-size:17px;
+  color:#ff4c68;
+}
